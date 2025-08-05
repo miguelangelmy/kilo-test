@@ -1,0 +1,1205 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+[*]
+max_line_length = 80
+
+[*.py]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.pyi]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.pyc]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.pyo]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.pyw]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.pyx]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.pxd]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.rst]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.txt]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.sh]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.bat]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.cmd]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.ps1]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.psm1]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.json]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.jsonc]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.json5]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.yml]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.yaml]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.xml]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.html]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.htm]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.css]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.scss]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.sass]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.less]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.js]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.jsx]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.ts]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.tsx]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.vue]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.php]
+indent_style = space
+indent_size = 4
+max_line_length = 79
+
+[*.java]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.cs]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.c]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.cpp]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.h]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.hpp]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.cxx]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.cc]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.mm]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.m]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.swift]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.go]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.rs]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.kt]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.kts]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.scala]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.rb]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.rake]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+[*.pl]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.pm]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.t]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.pod]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.podspec]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sql]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqlc]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqlx]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqlj]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb2]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb3]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb4]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb5]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb6]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb7]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb8]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb9]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb10]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb11]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb12]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb13]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb14]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb15]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb16]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb17]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb18]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb19]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb20]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb21]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb22]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb23]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb24]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb25]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb26]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb27]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb28]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb29]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb30]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb31]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb32]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb33]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb34]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb35]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb36]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb37]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb38]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb39]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb40]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb41]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb42]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb43]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb44]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb45]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb46]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb47]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb48]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb49]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb50]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb51]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb52]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb53]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb54]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb55]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb56]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb57]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb58]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb59]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb60]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb61]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb62]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb63]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb64]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb65]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb66]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb67]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb68]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb69]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb70]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb71]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb72]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb73]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb74]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb75]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb76]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb77]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb78]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb79]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb80]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb81]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb82]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb83]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb84]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb85]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb86]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb87]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb88]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb89]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb90]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb91]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb92]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb93]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb94]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb95]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb96]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb97]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb98]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb99]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb100]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb101]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb102]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb103]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb104]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb105]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb106]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb107]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb108]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb109]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb110]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb111]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb112]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb113]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb114]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb115]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb116]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb117]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb118]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb119]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb120]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb121]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb122]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb123]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb124]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb125]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb126]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb127]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb128]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb129]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb130]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb131]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb132]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb133]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb134]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb135]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb136]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb137]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb138]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb139]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb140]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb141]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb142]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb143]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb144]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb145]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb146]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb147]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb148]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb149]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb150]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb151]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb152]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb153]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb154]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb155]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb156]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb157]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb158]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb159]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb160]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb161]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb162]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb163]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb164]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb165]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb166]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb167]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb168]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb169]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb170]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb171]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb172]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb173]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb174]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb175]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb176]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb177]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb178]
+indent_style = space
+indent_size = 4
+max_line_length = 80
+
+[*.sqljb179]
+indent_style = space
+indent_size = 4

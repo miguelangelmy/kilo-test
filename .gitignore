@@ -1,0 +1,182 @@
+venv/
+
+# Byte-compiled / optimized / DLL files
+assembly_line_system/__pycache__/
+assembly_line_system/*.py[cod]
+assembly_line_system/*$py.class
+
+# C extensions
+assembly_line_system/*.so
+
+# Distribution / packaging
+assembly_line_system/.Python
+assembly_line_system/build/
+assembly_line_system/develop-eggs/
+assembly_line_system/dist/
+assembly_line_system/downloads/
+assembly_line_system/eggs/
+assembly_line_system/.eggs/
+assembly_line_system/lib/
+assembly_line_system/lib64/
+assembly_line_system/parts/
+assembly_line_system/sdist/
+assembly_line_system/var/
+assembly_line_system/wheels/
+assembly_line_system/*.egg-info/
+assembly_line_system/.installed.cfg
+assembly_line_system/*.egg
+
+# Installer logs
+assembly_line_system/pip-log.txt
+assembly_line_system/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+assembly_line_system/htmlcov/
+assembly_line_system/.tox/
+assembly_line_system/.nox/
+assembly_line_system/.coverage
+assembly_line_system/.coverage.*
+assembly_line_system/.cache
+assembly_line_system/nosetests.xml
+assembly_line_system/coverage.xml
+assembly_line_system/*.cover
+assembly_line_system/.hypothesis/
+assembly_line_system/.pytest_cache/
+
+# Translations
+assembly_line_system/*.mo
+assembly_line_system/*.pot
+
+# Django stuff:
+*assembly_line_system/.log
+assembly_line_system/local_settings.py
+assembly_line_system/db.sqlite3
+
+# Flask stuff:
+assembly_line_system/instance/
+assembly_line_system/.webassets-cache
+
+# Scrapy stuff:
+assembly_line_system/.scrapy
+
+# Sphinx documentation
+assembly_line_system/docs/_build/
+
+# Jupyter Notebook
+assembly_line_system/.ipynb_checkpoints
+
+# IPython
+assembly_line_system/profile_default/
+assembly_line_system/ipython_config.py
+
+# pyenv
+assembly_line_system/.python-version
+
+# celery beat schedule file
+assembly_line_system/celerybeat-schedule
+
+# SageMath parsed files
+assembly_line_system/*.sage.py
+
+# Environments
+assembly_line_system/.env
+assembly_line_system/.venv
+assembly_line_system/env/
+assembly_line_system/venv/
+assembly_line_system/NV/
+assembly_line_system/env.bak/
+assembly_line_system/venv.bak/
+
+# Spyder project settings
+assembly_line_system/.spyderproject
+assembly_line_system/.spydeproject
+
+# Rope project settings
+assembly_line_system/.ropeproject
+
+# mkdocs documentation
+assembly_line_system//site
+
+# mypy
+assembly_line_system/.mypy_cache/
+assembly_line_system/.dmypy.json
+assembly_line_system/dmypy.json
+
+# Pyre type checker
+assembly_line_system/.pyre/
+
+# Pytest
+assembly_line_system/.pytest_cache/
+assembly_line_system/cover/
+assembly_line_system/.hypothesis/
+
+# PyBuilder
+assembly_line_system/target/
+
+# Jupyter Notebook
+assembly_line_system/.ipynb_checkpoints
+
+# IPython
+assembly_line_system/profile_default/
+assembly_line_system/ipython_config.py
+
+# pyenv
+assembly_line_system/.python-version
+
+# celery beat schedule file
+assembly_line_system/celerybeat-schedule
+
+# SageMath parsed files
+assembly_line_system/*.sage.py
+
+# Environments
+assembly_line_system/.env
+assembly_line_system/.venv
+assembly_line_system/env/
+assembly_line_system/venv/
+assembly_line_system/ENV/
+assembly_line_system/env.bak/
+assembly_line_system/venv.bak/
+
+# Spyder project settings
+assembly_line_system/.spyderproject
+assembly_line_system/.spydeproject
+
+# Rope project settings
+assembly_line_system/.ropeproject
+
+# mkdocs documentation
+assembly_line_system//site
+
+# mypy
+assembly_line_system/.mypy_cache/
+assembly_line_system/.dmypy.json
+assembly_line_system/dmypy.json
+
+# Pyre type checker
+assembly_line_system/.pyre/
+
+# Pytest
+assembly_line_system/.pytest_cache/
+assembly_line_system/cover/
+assembly_line_system/.hypothesis/
+
+# PyBuilder
+assembly_line_system/target/
+
+# RLlib checkpoints
+assembly_line_system/ray/
+
+assembly_line_system/__pycache__/*
+assembly_line_system/.pytest_cache/*
+assembly_line_system/.venv/*
+assembly_line_system/env/*
+
+assembly_line_system/agents/__pycache__/*
+assembly_line_system/protocols/__pycache__/*
+assembly_line_system/rlib_models/__pycache__/*
+assembly_line_system/simulation/__pycache__/*
+assembly_line_system/tests/__pycache__/*
+
+*.pyc
+

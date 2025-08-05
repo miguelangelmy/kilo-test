@@ -1,0 +1,116 @@
+# Set default behavior for all files
+* text=auto
+
+# Python files
+*.py text diff=cpython
+
+# Markdown files
+*.md text diff=astextplain
+
+# JSON files
+*.json binary
+
+# YAML files
+*.yml text diff=astextplain
+*.yaml text diff=astextplain
+
+# Documentation files
+*.md linguist-language=Markdown
+*.rst linguist-language=reStructuredText
+
+# Text files
+*.txt text diff=astextplain
+
+# Shell scripts
+*.sh text exec
+
+# Makefiles
+Makefile text
+makefile text
+
+# Configuration files
+*.cfg text diff=cpp
+*.conf text diff=cpp
+*.config text diff=cpp
+*.ini text diff=cpp
+*.toml text diff=cpp
+
+# Log files
+*.log text diff=astextplain
+
+# Archive files
+*.zip binary
+*.gz binary
+*.tar binary
+
+# Image files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+
+# Font files
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+
+# Video files
+*.mp4 binary
+*.mov binary
+*.avi binary
+
+# Audio files
+*.mp3 binary
+*.wav binary
+*.ogg binary
+
+# PDF files
+*.pdf binary
+
+# Microsoft Office files
+*.docx binary
+*.pptx binary
+*.xlsx binary
+
+# Virtual environment files
+.venv/ exclude
+env/ exclude
+venv/ exclude
+ENV/ exclude
+
+# Build directories
+build/ exclude
+dist/ exclude
+*.egg-info/ exclude
+
+# Coverage reports
+htmlcov/ exclude
+.coverage exclude
+*.cover exclude
+
+# PyTest cache
+.pytest_cache/ exclude
+
+# Jupyter Notebooks
+*.ipynb binary
+
+# Node modules
+node_modules/ exclude
+
+# IDE files
+.vscode/ exclude
+*.swp exclude
+*.swo exclude
+*.idea/ exclude
+
+# Temporary files
+*.tmp exclude
+*.temp exclude
+*.bak exclude
+*.old exclude
+*.swp exclude
+
+# Mac OS files
+.DS_Store exclude

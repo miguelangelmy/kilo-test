@@ -1,0 +1,39 @@
+site_name: Assembly Line System Documentation
+nav:
+  - Home: index.md
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Agents: architecture/agents.md
+      - Protocols: architecture/protocols.md
+  - Environment:
+      - Design: environment/design.md
+      - API: environment/api.md
+  - Agents:
+      - Base Agent: agents/base_agent.md
+      - Conveyor Agent: agents/conveyor_agent.md
+  - RLlib Models:
+      - Overview: rllib/overview.md
+      - Conveyor Model: rllib/conveyor_model.md
+  - Protocols:
+      - Material Transfer: protocols/material_transfer.md
+  - Testing:
+      - Strategy: testing/strategy.md
+      - Environment Tests: testing/env_tests.md
+      - Agent Tests: testing/agent_tests.md
+  - Development:
+      - Setup: development/setup.md
+      - Contributing: development/contributing.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search

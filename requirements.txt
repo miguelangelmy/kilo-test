@@ -1,0 +1,15 @@
+# Dependencias del sistema de línea de ensamblaje multiagente
+
+# Framework para agentes inteligentes
+spade>=3.0.0
+
+# Bibliotecas de comunicación XMPP
+slixmpp>=1.8.0
+aioxmpp>=0.9.0
+
+# Bibliotecas auxiliares
+asyncio>=3.4.3
+typing_extensions>=4.0.0
+
+# Para ejecución de demostraciones
+pytest>=6.2.0

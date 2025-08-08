@@ -5,6 +5,7 @@ Conveyor Belt Agent implementation for the assembly line system.
 from assembly_line_system.agents.base_agent import AssemblyLineAgent
 from spade.behaviour import CyclicBehaviour, PeriodicBehaviour
 import json
+import time
 
 class ConveyorAgent(AssemblyLineAgent):
     """
@@ -70,6 +71,19 @@ class ConveyorAgent(AssemblyLineAgent):
         if self.current_load < self.capacity:
             self.current_load += 1
             print(f"{self.agent_id}: Received material, current load: {self.current_load}")
+        
+        # TODO: Implement actual message sending to previous station
+        # Example of how it should work:
+        # await self.send_message(
+        #     to_jid="previous_station@ejabberd-server",
+        #     message_type="material_transfer_request",
+        #     content={
+        #         "source": self.agent_id,
+        #         "material_id": f"mat_{self.current_load}",
+        #         "quantity": 1,
+        #         "destination": self.agent_id
+        #     }
+        # )
 
     async def _transport_materials(self):
         """Transport materials to the next station."""
@@ -80,6 +94,17 @@ class ConveyorAgent(AssemblyLineAgent):
             # In a real implementation, this would update the environment
             self.current_load -= 1
             print(f"{self.agent_id}: Delivered material, current load: {self.current_load}")
+        
+        # TODO: Implement actual message sending to next station
+        # Example of how it should work:
+        # await self.send_message(
+        #     to_jid="next_station@ejabberd-server",
+        #     message_type="material_transfer_execute",
+        #     content={
+        #         "source": self.agent_id,
+        #         "session_id": f"transfer_{self.agent_id}_{int(time.time())}"
+        #     }
+        # )
 
     async def _optimize_route(self):
         """Optimize the transport route based on current conditions."""
@@ -100,3 +125,17 @@ class ConveyorAgent(AssemblyLineAgent):
     async def on_stop(self):
         """Handle agent stop event."""
         print(f"{self.agent_id}: Conveyor agent stopped")
+        
+    # Methods to be implemented for proper XMPP communication
+    def can_accept_transfer(self, material_id, quantity):
+        """Check if this agent can accept a transfer."""
+        return self.current_load + quantity <= self.capacity
+        
+    def get_ready_time(self):
+        """Get the time when this agent will be ready to accept a transfer."""
+        return int(time.time()) + 5  # Ready in 5 seconds
+        
+    def perform_transfer(self):
+        """Perform the actual material transfer."""
+        # In a real implementation, this would update internal state
+        return "success"

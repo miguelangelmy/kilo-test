@@ -5,6 +5,7 @@ Base agent class for the assembly line system using SPADE.
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour, PeriodicBehaviour
 import json
+import time
 
 class AssemblyLineAgent(Agent):
     """
@@ -85,6 +86,22 @@ class AssemblyLineAgent(Agent):
             **content
         }
         msg = Message(to=to_jid,
-                     body=json.dumps(content_with_type))
+                      body=json.dumps(content_with_type))
 
         await self.send(msg)
+        
+    # Methods to be implemented by subclasses for proper XMPP communication
+    def can_accept_transfer(self, material_id, quantity):
+        """Check if this agent can accept a transfer."""
+        # Default implementation - should be overridden by subclasses
+        return True
+        
+    def get_ready_time(self):
+        """Get the time when this agent will be ready to accept a transfer."""
+        # Default implementation - should be overridden by subclasses
+        return int(time.time()) + 5
+        
+    def perform_transfer(self):
+        """Perform the actual material transfer."""
+        # Default implementation - should be overridden by subclasses
+        return "success"

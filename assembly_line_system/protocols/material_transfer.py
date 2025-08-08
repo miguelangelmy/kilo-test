@@ -21,6 +21,7 @@ class MaterialTransferProtocol:
     CONFIRM_TRANSFER = "material_transfer_confirm"
     EXECUTE_TRANSFER = "material_transfer_execute"
     TRANSFER_COMPLETE = "material_transfer_complete"
+    TRANSFER_REJECT = "material_transfer_reject"
 
     @staticmethod
     def create_request_message(source_id, target_jid, material_id, quantity, destination):
@@ -113,6 +114,28 @@ class MaterialTransferProtocol:
                       body=json.dumps(content))
 
     @staticmethod
+    def create_reject_message(source_id, target_jid, reason):
+        """
+        Create a material transfer rejection message.
+
+        Args:
+            source_id (str): ID of the sending agent
+            target_jid (str): JID of the receiving agent
+            reason (str): Reason for rejection
+
+        Returns:
+            Message: Formatted XMPP message
+        """
+        content = {
+            "message_type": MaterialTransferProtocol.TRANSFER_REJECT,
+            "source": source_id,
+            "reason": reason
+        }
+
+        return Message(to=target_jid,
+                      body=json.dumps(content))
+
+    @staticmethod
     def handle_request(agent, msg):
         """
         Handle a material transfer request.
@@ -146,7 +169,14 @@ class MaterialTransferProtocol:
             )
         else:
             print(f"{agent.agent_id}: Cannot accept transfer")
-            return None
+            # Send rejection message
+            reject_content = {
+                "message_type": MaterialTransferProtocol.TRANSFER_REJECT,
+                "source": source_id,
+                "reason": "insufficient_capacity"
+            }
+            reject_msg = Message(to=msg.sender, body=json.dumps(reject_content))
+            return reject_msg
 
     @staticmethod
     def handle_execute(agent, msg):
@@ -175,3 +205,23 @@ class MaterialTransferProtocol:
         return MaterialTransferProtocol.create_complete_message(
             agent.agent_id, msg.sender, status
         )
+        
+    @staticmethod
+    def handle_reject(agent, msg):
+        """
+        Handle a material transfer rejection.
+
+        Args:
+            agent: The receiving agent
+            msg: Incoming XMPP message
+
+        Returns:
+            None
+        """
+        content = json.loads(msg.body)
+        message_type = content.pop("message_type", None)
+
+        print(f"{agent.agent_id}: Transfer request rejected: {content}")
+        
+        # Handle rejection - could log or take corrective action
+        return None
